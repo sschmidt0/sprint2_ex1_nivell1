@@ -41,6 +41,33 @@ img {
   padding: 30px 10px;
 }
 
+.container h3 {
+  color: blue;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.swimmer-cards {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card i {
+  margin-top: 20px;
+  text-align: center;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -58,9 +85,17 @@ footer span:first-child {
 
 
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   header {
     padding: 10px 30px;
+  }
+
+  .card {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .card:last-child {
+    margin-right: 0;
   }
 }
